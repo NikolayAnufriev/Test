@@ -38,15 +38,37 @@
 
  >Журнал изменений. Перед переключением версии файла в Git используйте команду **_git log_**, чтобы увидеть количество сохранений.    
  [Важно!][log] 
- - **git checkout**
-
- >Переключение между версиями. Для работы нужно указать не только интересующий вас коммит, но и вернуться  в тот, где работаем, при помощи команды **_git checkout_** master.
  - **git branch**
  
- Если у нас несколько версий черновика, мы можем вывести на экран ветку, где находимся, командой **git branch**.
+ >Если у нас несколько версий черновика, мы можем вывести на экран ветку, где находимся, командой **_git branch_**.  
+  [Важно!][branch] 
+ - **git branch _new_branch_name_**
+
+ >Данная команда предназначена для создания новой ветки. Например, **_git branch_** Название_новой_ветки.   
+ [Важно!][branch new]
+ -  **git checkout**
+
+ >Если потребуется переключиться с одной ветки на другую, вызовем команду **_git checkout_** <имя ветки>  
+  [Важно!][checkout] 
+  - **git log -graph**
+
+  >Ключ **_-graph_** в связке с командой **_log_** позволяет отобразить коммиты в виде дерева.   
+  [Важно!][log graph]
+
+ - **git merge** 
+
+ >Чтобы слить любую ветку с текущей, вызываем **_git merge_** <имя ветки для слияния с текущей> [Важно!][merge]
+- **git ignore**
+
+>В Git не принято добавлять файлы изображений, их хранят на сторонних носителях. Чтобы исключить ненужные файлы из загрузки, есть команда **_git ignore_**.
 
 [init]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20init.PNG
 [add]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/Git%20add.png
 [commit]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20commit.png
 [diff]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20diff.png
 [log]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20log.png
+[branch]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20branch.png
+[branch new]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20branch%20new.png
+[checkout]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20checkout.png
+[log graph]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20log%20graph.png
+[merge]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20merge.png
