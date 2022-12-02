@@ -84,13 +84,11 @@
 
 >Эта команда позволяет склонировать внешний репозиторий на наш ПК.   
 [Важно!][clone]
+- **git pull**
 
-
-- Пробуем слить ветки что бы вызвать конфликт
-- Пробуем слить ветки что бы вызвать конфликт
-- Пробуем слить ветки что бы вызвать конфликт
-- Пробуем слить ветки что бы вызвать конфликт
-- Пробуем слить ветки что бы вызвать конфликт
+>Эта команда позволяет скачать все из текущего репозитория и автоматически
+сделать merge с нашей версией   
+[Важно!][pull]
 
 [init]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20init.PNG
 [add]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/Git%20add.png
@@ -103,3 +101,4 @@
 [log graph]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20log%20graph.png
 [merge]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20merge.png
 [clone]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20clone.png
+[pull]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20pull.png
