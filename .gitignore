@@ -10,11 +10,5 @@ git commit.png
 git diff.png
 git init.png
 git log.png
-<<<<<<< HEAD
 git pull.png
 git clone.png
-
-=======
-git clone.png
-git pull.png
->>>>>>> comand_Git_patch
