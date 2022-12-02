@@ -64,6 +64,11 @@
 - **git ignore**
 
 >В Git не принято добавлять файлы изображений, их хранят на сторонних носителях. Чтобы исключить ненужные файлы из загрузки, есть команда **_git ignore_**.
+- **git clone**
+
+>Эта команда позволяет скачать все из текущего репозитория и автоматически
+сделать merge с нашей версией   
+[Важно!][clone]
 
 [init]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20init.PNG
 [add]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/Git%20add.png
@@ -75,3 +80,4 @@
 [checkout]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20checkout.png
 [log graph]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20log%20graph.png
 [merge]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20merge.png
+[clone]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20clone.png
