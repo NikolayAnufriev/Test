@@ -90,6 +90,10 @@
 >Эта команда позволяет скачать все из текущего репозитория и автоматически
 сделать merge с нашей версией   
 [Важно!][pull]
+- **git push**
+
+>Эта команда позволяет отправить нашу версию репозитория на внешний репозиторий. Процедура ТРЕБУЕТ АВТОРИЗАЦИИ на внешнем репозитории.  
+[Важно!][push]
 
 
 # Работа с удаленными репозитариями
@@ -118,3 +122,4 @@
 [merge]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20merge.png
 [clone]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20clone.png
 [pull]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20pull.png
+[push]: ../../../../../../C:/Users/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0/Desktop/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/git/Pictures/git%20push.png
